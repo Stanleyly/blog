@@ -1,6 +1,9 @@
-### 深浅拷贝
+# Python 常见问题及错误
+* [1 深浅拷贝](#1-深浅拷贝)
+* [2 Python函数参数的传递](#2-Python函数参数的传递)
+* [3 类变量和实例变量](#3-类变量和实例变量)
 
-
+## 1 深浅拷贝
 + **明确对象**
   +  不可更改（immutable）：string、tuple、numbers
   +  可更改（mutable）：list、dict、set
@@ -32,7 +35,9 @@ print 'd = ', d
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/45594667/153817160-c74c1d68-8781-4861-a82c-470cd0ffeba0.png">
 
 
-### Python函数参数的传递（参数是引用，但是按值传递）
+## 2 Python函数参数的传递
+
+**(参数是引用，但是按值传递)**
 + 区分引用传递和值传递
   - 传入的参数是一个对象的引用（但是引用是按照值传递）
   - 值传递：形参改变不影响实参
@@ -74,10 +79,7 @@ print (a)
 
 <img width="161" alt="image" src="https://user-images.githubusercontent.com/45594667/153855105-b9178874-8f2a-426c-b93c-d532f38a505d.png">
 
-
-
-
-
+## 3 类变量和实例变量
 
 
 
