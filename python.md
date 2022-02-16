@@ -113,4 +113,17 @@ print Person.name  # aaa
 ```
 
 
+## Python自省
+自省：运行时能能够获得对象的类型
+
+```python
+a = [1, 2, 3]
+b = {'a':1, 'b':2, 'c':3}
+c = True
+print (type(a), type(b), type(c)) 
+print (isinstance(a, list))
+
+```
+
+
 
