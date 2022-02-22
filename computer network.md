@@ -1,5 +1,6 @@
 # Computer Network
 * [1 HTTP和HTTPS区别](#1-HTTP和HTTPS区别)
+* [2 HTTP中Get和Post区别](#2-HTTP中Get和Post区别)
 
 
 ## 1 HTTP和HTTPS区别
@@ -13,7 +14,7 @@
   + HTTP协议：80端口
   + HTTPS协议：443端口  
 
-## HTTP中Get和Post区别
+## 2 HTTP中Get和Post区别
 + Get用于获取/查询资源信息，应该是安全的和幂等的
   + 安全的是指：该操作只用于信息的获取而非修改信息
   + 幂等是指：对同一个URL的多个请求应该返回同样的结果
