@@ -3,7 +3,7 @@
 * [2 Python函数参数的传递](#2-Python函数参数的传递)
 * [3 类变量和实例变量](#3-类变量和实例变量)
 * [4 Python自省](#4-Python自省)
-* [5 Flask和Django的区别](#5-Flask和Django区别)
+* [5 Flask和Django的区别](#5-Flask和Django的区别)
 
 ## 1 深浅拷贝
 + **明确对象**
